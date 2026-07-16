@@ -1,0 +1,183 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+    --primary: #0B1F3A;
+    --gold: #D4AF37;
+    --gold-light: #E8C84A;
+    --white: #FFFFFF;
+    --gray-light: #F8F9FA;
+    --gray-dark: #1E2A3A;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background: var(--white);
+}
+
+/* ===== NAVIGATION ===== */
+.navbar {
+    background: var(--primary) !important;
+    padding: 1rem 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.navbar-brand {
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+}
+.navbar-brand .gold-text {
+    color: var(--gold);
+}
+.nav-link {
+    color: rgba(255,255,255,0.85) !important;
+    font-weight: 500;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: var(--gold) !important;
+}
+
+/* ===== GOLD TEXT HELPER ===== */
+.gold-text {
+    color: var(--gold);
+}
+
+/* ===== BUTTONS ===== */
+.btn-gold {
+    background: var(--gold);
+    color: var(--white);
+    border: none;
+    padding: 12px 36px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.2s;
+}
+.btn-gold:hover {
+    background: var(--gold-light);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+.btn-outline-gold {
+    background: transparent;
+    color: var(--gold);
+    border: 2px solid var(--gold);
+    padding: 12px 36px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.btn-outline-gold:hover {
+    background: var(--gold);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    background: linear-gradient(rgba(11,31,58,0.85), rgba(11,31,58,0.85)),
+                url('/images/hero-bg.jpg') center/cover no-repeat;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+}
+.hero h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.hero h1 .gold-text {
+    color: var(--gold);
+}
+.hero p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    margin: 1.5rem 0 2.5rem;
+}
+
+/* ===== CARDS ===== */
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.card .gold-text {
+    color: var(--gold);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background: var(--primary);
+    color: rgba(255,255,255,0.8);
+    padding: 3rem 0 1.5rem;
+}
+.footer h5 {
+    color: var(--gold);
+    margin-bottom: 1rem;
+}
+.footer a {
+    color: var(--gold);
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* ===== FLOATING BUTTONS ===== */
+.floating-buttons {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    z-index: 1000;
+}
+.whatsapp-btn, .chat-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+.whatsapp-btn {
+    background: #25D366;
+}
+.chat-btn {
+    background: var(--gold);
+}
+.whatsapp-btn:hover, .chat-btn:hover {
+    transform: scale(1.1);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .floating-buttons {
+        bottom: 1rem;
+        right: 1rem;
+    }
+    .whatsapp-btn, .chat-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.4rem;
+    }
+}
