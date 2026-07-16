@@ -17,7 +17,7 @@
         <div class="row">
             <!-- Sidebar -->
             <div class="col-md-2 admin-sidebar p-3">
-                <h4 class="text-white mb-4"><span class="gold-text">Presbusy</span> Admin</h4>
+                <h4 class="text-white mb-4"><span class="gold-text">Prestbury</span> Admin</h4>
                 <a href="{{ route('admin.dashboard') }}" class="{{ request()->routeIs('admin.dashboard') ? 'active' : '' }}">📊 Dashboard</a>
                 <a href="{{ route('admin.chats') }}" class="{{ request()->routeIs('admin.chats') ? 'active' : '' }}">💬 Live Chat</a>
                 <a href="/">🌐 View Site</a>
@@ -186,5 +186,5 @@
     </script>
 
     @stack('scripts')
-</body>
+</body> 
 </html>

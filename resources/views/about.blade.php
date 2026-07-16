@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us - Presbusy Assurance Partners')
+@section('title', 'About Us - Prestbury Assurance Partners')
 
 @section('content')
 <section class="py-5">
@@ -10,7 +10,7 @@
                 <h1 class="fw-bold mb-4" style="color: var(--primary);">About Us</h1>
                 
                 <p class="lead" style="color: var(--gold);">
-                    Presbusy commitment is to stand by your side, protect your rights, and pursue every inheritance claim with the highest standards of integrity, professionalism, and dedication.
+                    Prestbury commitment is to stand by your side, protect your rights, and pursue every inheritance claim with the highest standards of integrity, professionalism, and dedication.
                 </p>
                 
                 <p>

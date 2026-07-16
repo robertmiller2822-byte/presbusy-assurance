@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login - Presbusy Assurance</title>
+    <title>Admin Login - Prestbury Assurance</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
         body {
@@ -52,7 +52,7 @@
 <body>
     <div class="login-card">
         <div class="text-center mb-4">
-            <h3 class="mb-1"><span class="gold-text">Presbusy</span> Assurance</h3>
+            <h3 class="mb-1"><span class="gold-text">Prestbury</span> Assurance</h3>
             <p class="text-muted small">Admin Login</p>
         </div>
 
@@ -72,7 +72,7 @@
             @csrf
             <div class="mb-3">
                 <label for="email" class="form-label fw-bold">Email</label>
-                <input type="email" name="email" id="email" class="form-control" placeholder="admin@presbusy.com" required>
+                <input type="email" name="email" id="email" class="form-control" placeholder="admin@Prestbury.com" required>
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label fw-bold">Password</label>
@@ -81,7 +81,7 @@
             <button type="submit" class="btn-gold">Login</button>
         </form>
         <p class="text-center text-muted small mt-3">
-            Default: admin@presbusy.com / password123
+            Default: admin@Prestbury.com / password123
         </p>
     </div>
 </body>

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home - Presbusy Assurance Partners')
+@section('title', 'Home - Prestbury Assurance Partners')
 
 @section('content')
     <!-- Hero Section -->
@@ -32,7 +32,7 @@
                 <div class="col-lg-6">
                     <h2 class="fw-bold">About Us</h2>
                     <p class="lead" style="color: var(--primary);">
-                        Presbusy commitment is to stand by your side, protect your rights, and pursue every inheritance claim with the highest standards of integrity, professionalism, and dedication.
+                        Prestbury commitment is to stand by your side, protect your rights, and pursue every inheritance claim with the highest standards of integrity, professionalism, and dedication.
                     </p>
                     <p>
                         We are committed to guiding you through every stage of the claims process while working diligently to achieve a fair and successful resolution.
@@ -40,7 +40,7 @@
                     <a href="/about" class="btn btn-gold mt-3">Read More</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="https://via.placeholder.com/600x400/0B1F3A/D4AF37?text=Presbusy+Assurance" class="img-fluid rounded shadow" alt="About Us">
+                    <img src="https://via.placeholder.com/600x400/0B1F3A/D4AF37?text=Prestbury+Assurance" class="img-fluid rounded shadow" alt="About Us">
                 </div>
             </div>
         </div>

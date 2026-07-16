@@ -4,7 +4,7 @@
 
 <a class="navbar-brand fw-bold" href="/">
     <img src="{{ asset('storage/images/logo.png') }}" 
-         alt="Presbusy Assurance" 
+         alt="Prestbury Assurance" 
          height="50">
 </a>
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@yield('title', 'Presbusy Assurance Partners')</title>
+    <title>@yield('title', 'Prestbury Assurance Partners')</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand fw-bold" href="/">
-                <span class="gold-text">Presbusy</span> Assurance Partners
+                <span class="gold-text">Prestbury</span> Assurance Partners
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
                 <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h5 class="gold-text">Presbusy Assurance Partners</h5>
+                    <h5 class="gold-text">Prestbury Assurance Partners</h5>
                     <p>Your trusted partner in insurance and estate claims.</p>
                     <p style="font-size: 0.9rem; opacity: 0.7;">
                         Honeybourne Place, Jessop Avenue,<br>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="text-center mt-3 small" style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem;">
-                &copy; {{ date('Y') }} Presbusy Assurance Partners. All rights reserved.
+                &copy; {{ date('Y') }} Prestbury Assurance Partners. All rights reserved.
             </div>
         </div>
     </footer>

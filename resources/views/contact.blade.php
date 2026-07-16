@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Contact Us - Presbusy Assurance Partners')
+@section('title', 'Contact Us - Prestbury Assurance Partners')
 
 @section('content')
 <section class="py-5" style="background: var(--gray-light); min-height: 80vh;">

@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const chatHTML = `
     <div id="chatModal" style="display: none; position: fixed; bottom: 110px; right: 20px; width: 360px; max-width: 90vw; max-height: 480px; background: #fff; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); z-index: 9999; flex-direction: column; overflow: hidden; border: 1px solid #eee;">
         <div style="background: #0B1F3A; color: #fff; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-weight: 600;"><span style="color: #D4AF37;">Presbusy</span> Support</span>
+            <span style="font-weight: 600;"><span style="color: #D4AF37;">Prestbury</span> Support</span>
             <span id="chatCloseBtn" style="cursor: pointer; font-size: 1.4rem;">&times;</span>
         </div>
         <div id="chatLoginForm" style="padding: 20px;">

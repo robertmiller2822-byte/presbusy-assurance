@@ -12,7 +12,7 @@ class AdminUserSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => 'Admin',
-            'email' => 'admin@presbusy.com',
+            'email' => 'admin@Prestbury.com',
             'password' => Hash::make('password123'),
             'created_at' => now(),
             'updated_at' => now(),
