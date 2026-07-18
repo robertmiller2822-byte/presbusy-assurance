@@ -3,29 +3,38 @@
 @section('title', 'Home - Prestbury Assurance Partners')
 
 @section('content')
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <h1>
-                        Claim Your <span class="gold-text">Legacy</span>.<br>
-                        Secure Your <span class="gold-text">Future</span>.
-                    </h1>
-                    <p>
-                        Professional insurance and estate claims specialists.
-                        We handle the complex so you can focus on what matters.
-                    </p>
-                    <div class="d-flex flex-wrap gap-3">
-                        <a href="/contact" class="btn btn-gold">Book Consultation</a>
-                        <a href="/about" class="btn btn-outline-gold">Learn More</a>
-                    </div>
+<!-- Hero Section with Video Background -->
+<section class="hero">
+    <!-- Video Background -->
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="{{ asset('videos/bgvideo.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <!-- Dark Overlay (makes text readable) -->
+    <div class="hero-overlay"></div>
+    
+    <!-- Hero Content -->
+    <div class="container hero-content">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1>
+                    Claim Your <span class="gold-text">Legacy</span>.<br>
+                    Secure Your <span class="gold-text">Future</span>.
+                </h1>
+                <p>
+                    Professional insurance and estate claims specialists. We handle the complex so you can focus on what matters.
+                </p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="/contact" class="btn btn-gold">Book Consultation</a>
+                    <a href="/about" class="btn btn-outline-gold">Learn More</a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- About Section (Exact text from your PDF) -->
+    <!-- About Section -->
     <section class="py-5">
         <div class="container">
             <div class="row align-items-center">
@@ -46,7 +55,7 @@
         </div>
     </section>
 
-    <!-- Practice Areas (All 10 from your PDF) -->
+    <!-- Practice Areas -->
     <section class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center fw-bold mb-5">Our Practice Areas</h2>
@@ -79,7 +88,7 @@
         </div>
     </section>
 
-    <!-- Meet Our Team (4 members) – WITH LOCAL IMAGES -->
+    <!-- Meet Our Team -->
     <section class="py-5">
         <div class="container">
             <h2 class="text-center fw-bold mb-5">Meet Our Team</h2>

@@ -46,3 +46,7 @@ Route::get('/test-chat', function () {
     $chats = App\Models\Chat::withCount('messages')->get();
     return response()->json($chats);
 });
+
+Route::get('/test', function () {
+    return 'Hello World!';
+});

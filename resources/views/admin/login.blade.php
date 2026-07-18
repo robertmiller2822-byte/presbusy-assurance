@@ -80,9 +80,7 @@
             </div>
             <button type="submit" class="btn-gold">Login</button>
         </form>
-        <p class="text-center text-muted small mt-3">
-            Default: admin@Prestbury.com / password123
-        </p>
+        
     </div>
 </body>
 </html>
