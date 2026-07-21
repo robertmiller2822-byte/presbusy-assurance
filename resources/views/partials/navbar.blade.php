@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
         <a class="navbar-brand fw-bold" href="/">
-            <img src="{{ asset('storage/images/logo.png') }}" alt="Prestbury Assurance" height="50">
+            <img src="{{ asset('storage/images/logo.png?v=2') }}" alt="Prestbury Assurance" height="50">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
             <span class="navbar-toggler-icon"></span>
