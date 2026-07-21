@@ -47,6 +47,11 @@ Route::get('/test-chat', function () {
     return response()->json($chats);
 });
 
-Route::get('/test', function () {
-    return 'Hello World!';
+
+Route::get('/services', function () {
+    return view('services');
+});
+
+Route::get('/team', function () {
+    return view('team');
 });
