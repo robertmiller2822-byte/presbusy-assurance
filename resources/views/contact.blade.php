@@ -69,7 +69,14 @@
                     <div class="col-md-4">
                         <div class="card border-0 shadow-sm text-center p-3 h-100">
                             <i class="fas fa-map-marker-alt fa-2x gold-text mb-2"></i>
-                            <p class="small mb-0">Honeybourne Place,<br>Jessop Avenue, Cheltenham</p>
+                            <p class="small mb-0">
+                                <strong>Honeybourne Place</strong><br>
+                                Jessop Avenue, Cheltenham, GL50 33H
+                            </p>
+                            <p class="small mb-0" style="margin-top: 0.5rem;">
+                                <strong>Jessop House</strong><br>
+                                Jessop Avenue, Cheltenham, GL50 3SH
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4">
