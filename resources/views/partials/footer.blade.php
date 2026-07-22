@@ -11,6 +11,11 @@
                     Honeybourne Place, Jessop Avenue<br>
                     Cheltenham, GL50 33H, United Kingdom
                 </p>
+
+                <p class="small" style="margin-top: 0.5rem;">
+                    Jessop House, Jessop Avenue<br>
+                    Cheltenham, GL50 3SH, United Kingdom
+                </p>
             </div>
 
             <div class="col-md-4">
